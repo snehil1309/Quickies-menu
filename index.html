@@ -1,0 +1,462 @@
+<!-- @format -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quickies Menu</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: #000;
+        color: #ffb22c;
+        font-family: "Segoe UI", Arial, sans-serif;
+        min-height: 100vh;
+      }
+      .menu-container {
+        max-width: 480px;
+        margin: 0 auto;
+        padding: 1.5rem 1rem;
+      }
+      .menu-title {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 1.5rem;
+        letter-spacing: 2px;
+        color: #ffb22c;
+      }
+      .menu-section {
+        margin-bottom: 2rem;
+      }
+      .section-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        border-bottom: 2px solid #ffb22c;
+        padding-bottom: 0.25rem;
+        color: #ffb22c;
+      }
+      .menu-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0.75rem 0;
+        border-bottom: 1px solid #222;
+      }
+      .item-name {
+        font-size: 1rem;
+        font-weight: 500;
+        color: #ffb22c;
+      }
+      .item-price {
+        font-size: 1rem;
+        font-weight: bold;
+        color: #ffb22c;
+        margin-left: 1rem;
+        white-space: nowrap;
+      }
+      .item-desc {
+        font-size: 0.95rem;
+        color: #ffd77a;
+        margin-top: 0.2rem;
+      }
+      @media (min-width: 600px) {
+        body {
+          background: #111;
+        }
+        .menu-container {
+          box-shadow: 0 0 16px #ffb22c33;
+          border-radius: 12px;
+          margin-top: 2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="menu-container">
+      <div class="menu-title">Quickies Menu</div>
+      <div class="menu-section">
+        <div class="section-title">Value Combo</div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name">Snack & Sip Combo</div>
+            <div class="item-desc"
+              >Salted fries paired with refreshing lime soda.</div
+            >
+          </div>
+          <div class="item-price">₹129</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name">Cheesy Hunger Combo</div>
+            <div class="item-desc"
+              >Veg cheese grilled sandwich with peri peri fries.</div
+            >
+          </div>
+          <div class="item-price">₹199</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name">Sweet Treat Combo</div>
+            <div class="item-desc"
+              >Chocolate waffle served with chocolate milkshake.</div
+            >
+          </div>
+          <div class="item-price">₹249</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name">Mini Party Combo</div>
+            <div class="item-desc"
+              >Mini pizza, peri peri fries, and lime soda.</div
+            >
+          </div>
+          <div class="item-price">₹299</div>
+        </div>
+      </div>
+      <div class="menu-section">
+        <div class="section-title">Dessert</div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name"
+              >Molten Bliss Brownie
+              <span style="color: #ffd77a; font-size: 0.9em"
+                >Best Seller</span
+              ></div
+            >
+            <div class="item-desc"
+              >Warm chocolate brownie with rich gooey center.</div
+            >
+          </div>
+          <div class="item-price">₹200</div>
+        </div>
+      </div>
+      <div class="menu-section">
+        <div class="section-title">Waffles</div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name">Cocoa Dream Waffle</div>
+            <div class="item-desc"
+              >Classic waffle topped with silky chocolate drizzle.</div
+            >
+          </div>
+          <div class="item-price">₹150</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name"
+              >Cookies & Cream Crunch
+              <span style="color: #ffd77a; font-size: 0.9em"
+                >Customer's Favorite</span
+              ></div
+            >
+            <div class="item-desc"
+              >Crispy waffle layered with Oreo cream crumble.</div
+            >
+          </div>
+          <div class="item-price">₹160</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name">KitKat Choco Crave</div>
+            <div class="item-desc"
+              >Crunchy KitKat pieces over melted chocolate waffle.</div
+            >
+          </div>
+          <div class="item-price">₹160</div>
+        </div>
+      </div>
+      <div class="menu-section">
+        <div class="section-title">Milkshakes</div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name">Velvet Vanilla Shake</div>
+            <div class="item-desc"
+              >Smooth creamy vanilla shake, light and refreshing.</div
+            >
+          </div>
+          <div class="item-price">₹80</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name"
+              >Midnight Chocolate Shake
+              <span style="color: #ffd77a; font-size: 0.9em"
+                >Best Seller</span
+              ></div
+            >
+            <div class="item-desc"
+              >Rich chocolate shake with deep cocoa flavor.</div
+            >
+          </div>
+          <div class="item-price">₹90</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name">Strawberry Swirl Shake</div>
+            <div class="item-desc"
+              >Sweet strawberry shake with fruity freshness.</div
+            >
+          </div>
+          <div class="item-price">₹100</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name"
+              >Mango Magic Shake
+              <span style="color: #ffd77a; font-size: 0.9em"
+                >Premium Choice</span
+              ></div
+            >
+            <div class="item-desc"
+              >Thick mango shake bursting with tropical sweetness.</div
+            >
+          </div>
+          <div class="item-price">₹130</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name">Royal Rajwadi Shake</div>
+            <div class="item-desc"
+              >Traditional rich shake with indulgent royal taste.</div
+            >
+          </div>
+          <div class="item-price">₹140</div>
+        </div>
+      </div>
+      <div class="menu-section">
+        <div class="section-title">Beverages</div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name">Zesty Fresh Lime</div>
+            <div class="item-desc"
+              >Refreshing lime drink with a tangy citrus kick.</div
+            >
+          </div>
+          <div class="item-price">₹40</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name"
+              >Sparkling Lime Soda
+              <span style="color: #ffd77a; font-size: 0.9em"
+                >Most Refreshing</span
+              ></div
+            >
+            <div class="item-desc"
+              >Chilled fizzy soda blended with fresh lime.</div
+            >
+          </div>
+          <div class="item-price">₹50</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name">Sunrise Orange Juice</div>
+            <div class="item-desc"
+              >Fresh orange juice packed with natural energy.</div
+            >
+          </div>
+          <div class="item-price">₹60</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name">Orange Pop Soda</div>
+            <div class="item-desc"
+              >Sweet citrus soda with lively sparkling bubbles.</div
+            >
+          </div>
+          <div class="item-price">₹70</div>
+        </div>
+      </div>
+      <div class="menu-section">
+        <div class="section-title">Sandwich & Toast</div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name">Golden Butter Toast</div>
+            <div class="item-desc"
+              >Lightly toasted bread with melting buttery goodness.</div
+            >
+          </div>
+          <div class="item-price">₹50</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name">Classic Comfort Sandwich</div>
+            <div class="item-desc"
+              >Simple veg sandwich with fresh crisp filling.</div
+            >
+          </div>
+          <div class="item-price">₹80</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name"
+              >Grill Melt Veggie
+              <span style="color: #ffd77a; font-size: 0.9em"
+                >Best Seller</span
+              ></div
+            >
+            <div class="item-desc"
+              >Grilled sandwich stuffed with seasoned vegetables.</div
+            >
+          </div>
+          <div class="item-price">₹120</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name">Cheesy Veggie Grill</div>
+            <div class="item-desc"
+              >Veg grilled sandwich loaded with melted cheese.</div
+            >
+          </div>
+          <div class="item-price">₹140</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name"
+              >Triple Layer Cheese Club
+              <span style="color: #ffd77a; font-size: 0.9em"
+                >Premium Choice</span
+              ></div
+            >
+            <div class="item-desc"
+              >Three-layer sandwich packed with cheesy delight.</div
+            >
+          </div>
+          <div class="item-price">₹160</div>
+        </div>
+      </div>
+      <div class="menu-section">
+        <div class="section-title">Pizza</div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name">Mini Margherita Delight</div>
+            <div class="item-desc"
+              >Cheesy mini pizza with classic tomato flavors.</div
+            >
+          </div>
+          <div class="item-price">₹90</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name"
+              >Garden Fresh Toppings
+              <span style="color: #ffd77a; font-size: 0.9em"
+                >Popular Pick</span
+              ></div
+            >
+            <div class="item-desc"
+              >Loaded mini pizza with veggie topping choices.</div
+            >
+          </div>
+          <div class="item-price">₹100</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name">Veggie Classic Bite</div>
+            <div class="item-desc"
+              >Balanced pizza with signature vegetable medley.</div
+            >
+          </div>
+          <div class="item-price">₹110</div>
+        </div>
+      </div>
+      <div class="menu-section">
+        <div class="section-title">Fries</div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name">Simply Salted Fries</div>
+            <div class="item-desc"
+              >Crispy golden fries sprinkled with fine salt.</div
+            >
+          </div>
+          <div class="item-price">₹50</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name"
+              >Peri Peri Fire Fries
+              <span style="color: #ffd77a; font-size: 0.9em"
+                >Best Seller</span
+              ></div
+            >
+            <div class="item-desc"
+              >Spicy peri peri fries with bold seasoning.</div
+            >
+          </div>
+          <div class="item-price">₹60</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name">Peppery Crunch Fries</div>
+            <div class="item-desc"
+              >Fries tossed with black pepper and salt.</div
+            >
+          </div>
+          <div class="item-price">₹70</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name">Cheese Mayo Loaded Fries</div>
+            <div class="item-desc"
+              >Fries topped with creamy mayo cheese blend.</div
+            >
+          </div>
+          <div class="item-price">₹80</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name"
+              >Honey Chilli Lemon Fries
+              <span style="color: #ffd77a; font-size: 0.9em"
+                >Chef’s Special</span
+              ></div
+            >
+            <div class="item-desc"
+              >Sweet spicy fries with honey lemon glaze.</div
+            >
+          </div>
+          <div class="item-price">₹90</div>
+        </div>
+      </div>
+      <div class="menu-section">
+        <div class="section-title">Potato Wedges</div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name">Peri Peri Wedges</div>
+            <div class="item-desc"
+              >Chunky wedges coated in spicy peri peri.</div
+            >
+          </div>
+          <div class="item-price">₹80</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name">Pepper Salt Wedges</div>
+            <div class="item-desc"
+              >Crispy wedges seasoned with pepper and salt.</div
+            >
+          </div>
+          <div class="item-price">₹90</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <div class="item-name"
+              >Honey Chilli Lemon Wedges
+              <span style="color: #ffd77a; font-size: 0.9em"
+                >Chef’s Special</span
+              ></div
+            >
+            <div class="item-desc"
+              >Sweet spicy wedges with honey lemon touch.</div
+            >
+          </div>
+          <div class="item-price">₹100</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
